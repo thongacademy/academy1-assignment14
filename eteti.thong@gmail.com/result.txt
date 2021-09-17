@@ -1,0 +1,27 @@
+aws-cli/2.2.39 Python/3.8.8 Windows/10 exe/AMD64 prompt/off
+To get account number
+349613135469
+To get information aout an IAM user
+To get information about an IAM user
+{
+    "User": {
+        "Path": "/",
+        "UserName": "patricia_admin",
+        "UserId": "AIDAVCZURCZWRVYLRR7YV",
+        "Arn": "arn:aws:iam::349613135469:user/patricia_admin",
+        "CreateDate": "2021-07-23T01:40:54+00:00",
+        "PasswordLastUsed": "2021-08-24T17:14:24+00:00",
+        "Tags": [
+            {
+                "Key": "class",
+                "Value": "aws"
+            }
+        ]
+    }
+}
+ To describes the specified instances or all instances
+{
+    "Reservations": []
+}
+ To get the region name of the 10 th of the region list
+ca-central-1
