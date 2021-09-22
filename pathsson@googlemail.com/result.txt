@@ -1,0 +1,161 @@
+aws-cli/2.2.39 Python/3.8.8 Windows/10 exe/AMD64 prompt/off
+**** To get account number **** 
+192775202819
+ **** To get information about an IAM user **** 
+{
+    "User": {
+        "Path": "/",
+        "UserName": "path_admin",
+        "UserId": "AIDASZYSMFABU3HJQIHDH",
+        "Arn": "arn:aws:iam::192775202819:user/path_admin",
+        "CreateDate": "2021-07-24T20:38:16+00:00",
+        "PasswordLastUsed": "2021-09-21T20:43:17+00:00",
+        "Tags": [
+            {
+                "Key": "Projects",
+                "Value": "aws"
+            }
+        ]
+    }
+}
+ **** To Describes the specified instances or all instances **** 
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-087c17d1fe0178315",
+                    "InstanceId": "i-0d93128ccd4eb9163",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "mySession16KP",
+                    "LaunchTime": "2021-09-18T15:10:05+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-19-237.ec2.internal",
+                    "PrivateIpAddress": "172.31.19.237",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-50-16-100-142.compute-1.amazonaws.com",
+                    "PublicIpAddress": "50.16.100.142",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-8106f3cd",
+                    "VpcId": "vpc-fe314083",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2021-09-18T15:10:06+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0d3536bba051bbd81"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-50-16-100-142.compute-1.amazonaws.com",
+                                "PublicIp": "50.16.100.142"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2021-09-18T15:10:05+00:00",
+                                "AttachmentId": "eni-attach-05f35ec173a0024c8",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "ssh-only",
+                                    "GroupId": "sg-035957c3d21869ed5"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:d4:f0:9d:82:ad",
+                            "NetworkInterfaceId": "eni-04c7ddc339ca15d38",
+                            "OwnerId": "192775202819",
+                            "PrivateDnsName": "ip-172-31-19-237.ec2.internal",
+                            "PrivateIpAddress": "172.31.19.237",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-50-16-100-142.compute-1.amazonaws.com",
+                                        "PublicIp": "50.16.100.142"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-19-237.ec2.internal",
+                                    "PrivateIpAddress": "172.31.19.237"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-8106f3cd",
+                            "VpcId": "vpc-fe314083",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "ssh-only",
+                            "GroupId": "sg-035957c3d21869ed5"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "webServerASession16"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    }
+                }
+            ],
+            "OwnerId": "192775202819",
+            "ReservationId": "r-082406f5953eccf1d"
+        }
+    ]
+}
+ **** To get the region name of the 10 th of the region list **** 
+ca-central-1
