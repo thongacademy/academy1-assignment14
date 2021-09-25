@@ -1,0 +1,9 @@
+aws-cli/1.16.209 Python/3.7.1 Windows/10 botocore/1.12.199
+**** To get account number ****
+990088469739
+**** To Describes the specified instances or all instances ****
+{
+    "Reservations": []
+}
+**** To get the region name of the 10 th of the region list ****
+ca-central-1
