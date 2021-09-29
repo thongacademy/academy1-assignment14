@@ -1,0 +1,282 @@
+aws-cli/2.2.41 Python/3.8.8 Windows/10 exe/AMD64 prompt/off
+*** To get account number ***
+aws-cli/2.2.41 Python/3.8.8 Windows/10 exe/AMD64 prompt/off
+*** To get account number ***
+941409993553
+**** To get information about an IAM user ****
+{
+    "User": {
+        "Path": "/",
+        "UserName": "admin_pat",
+        "UserId": "AIDA5WMDIQNI6MFC7S6EW",
+        "Arn": "arn:aws:iam::941409993553:user/admin_pat",
+        "CreateDate": "2021-07-23T01:40:41+00:00",
+        "PasswordLastUsed": "2021-08-26T17:35:55+00:00",
+        "Tags": [
+            {
+                "Key": "Class",
+                "Value": "aws"
+            }
+        ]
+    }
+}
+**** To Describes the specified instances or all instances ****
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-087c17d1fe0178315",
+                    "InstanceId": "i-0209f5a5b03b1652c",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "myassignment15BKP",
+                    "LaunchTime": "2021-09-26T18:51:10+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1d",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-94-43.ec2.internal",
+                    "PrivateIpAddress": "172.31.94.43",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2021-09-26 21:27:56 GMT)",
+                    "SubnetId": "subnet-77e1c256",
+                    "VpcId": "vpc-0eb8c973",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2021-09-26T18:51:11+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0f69c660ddef2c09f"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2021-09-26T18:51:10+00:00",
+                                "AttachmentId": "eni-attach-04a10aa095e1ae855",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "ssh-only",
+                                    "GroupId": "sg-0071ba98676ace073"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "12:95:70:c8:0b:7b",
+                            "NetworkInterfaceId": "eni-00f99126a31d891d9",
+                            "OwnerId": "941409993553",
+                            "PrivateDnsName": "ip-172-31-94-43.ec2.internal",
+                            "PrivateIpAddress": "172.31.94.43",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-94-43.ec2.internal",
+                                    "PrivateIpAddress": "172.31.94.43"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-77e1c256",
+                            "VpcId": "vpc-0eb8c973",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "ssh-only",
+                            "GroupId": "sg-0071ba98676ace073"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "webServer2Assignment15"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    }
+                }
+            ],
+            "OwnerId": "941409993553",
+            "ReservationId": "r-0dc617beeb5f51b13"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-087c17d1fe0178315",
+                    "InstanceId": "i-0a4bbc13ec1973048",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "myassignment15BKP",
+                    "LaunchTime": "2021-09-26T18:48:23+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-east-1b",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-41-145.ec2.internal",
+                    "PrivateIpAddress": "172.31.41.145",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2021-09-26 21:27:56 GMT)",
+                    "SubnetId": "subnet-f76243a8",
+                    "VpcId": "vpc-0eb8c973",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2021-09-26T18:48:24+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-080408e8a87eb0c34"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2021-09-26T18:48:23+00:00",
+                                "AttachmentId": "eni-attach-0c8cc34fccef00b45",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "ssh-only",
+                                    "GroupId": "sg-0071ba98676ace073"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0e:1c:c1:6f:6d:33",
+                            "NetworkInterfaceId": "eni-0e684aebfa7e1faa0",
+                            "OwnerId": "941409993553",
+                            "PrivateDnsName": "ip-172-31-41-145.ec2.internal",
+                            "PrivateIpAddress": "172.31.41.145",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-41-145.ec2.internal",
+                                    "PrivateIpAddress": "172.31.41.145"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-f76243a8",
+                            "VpcId": "vpc-0eb8c973",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "ssh-only",
+                            "GroupId": "sg-0071ba98676ace073"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "webServer1Assignment15"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    }
+                }
+            ],
+            "OwnerId": "941409993553",
+            "ReservationId": "r-02a96921401d5f8af"
+        }
+    ]
+}
+**** To get the region name of the 10th of the region list ****
