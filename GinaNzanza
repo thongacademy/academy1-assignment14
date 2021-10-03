@@ -1,0 +1,86 @@
+Last login: Sun Oct  3 13:31:58 on ttys000
+ginanzanzakiese@Ginas-MacBook-Air ~ % git clone https://github.com/thongacademy/academy1-assignment14.git
+Cloning into 'academy1-assignment14'...
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 19 (delta 5), reused 13 (delta 2), pack-reused 0
+Unpacking objects: 100% (19/19), done.
+ginanzanzakiese@Ginas-MacBook-Air ~ % cd academy1-assignment14
+ginanzanzakiese@Ginas-MacBook-Air academy1-assignment14 % mkdir nzanzag@gmail.com
+ginanzanzakiese@Ginas-MacBook-Air academy1-assignment14 % cd nzanzag@gmail.com
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % touch result.txt
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % command >> aws --version
+zsh: command not found: --version
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % command>> aws --version
+zsh: command not found: --version
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % aws --verion >> result.txt
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: the following arguments are required: command
+
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % aws --version >> result.txt
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % aws configure
+AWS Access Key ID [****************D663]: 
+AWS Secret Access Key [****************xSr/]: 
+Default region name [us-east-1]: us-east-1
+Default output format [json]: 
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % echo '*** To get account number***' >> result.txt
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % aws sts get-caller-identity --query Account --output text >> result.txt
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % echo '*** To get information about IAM user***' >> result.txt
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % aws iam get-user
+{
+    "User": {
+        "Path": "/",
+        "UserName": "gina_admin",
+        "UserId": "AIDA6DEIYT4GGG5AJWSDP",
+        "Arn": "arn:aws:iam::968801951500:user/gina_admin",
+        "CreateDate": "2021-07-23T01:40:46+00:00",
+        "PasswordLastUsed": "2021-08-07T17:48:59+00:00",
+        "Tags": [
+            {
+                "Key": "Class",
+                "Value": "aws"
+            }
+        ]
+    }
+}
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % echo 'To Describes the specified instances or all instances***' >> result.txt
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % aws ec2 describe-instances >> result.txt
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % aws iam get-user >> result.txt
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % echo '***To get the region name of the 10 th of the region list***' >> result.txt
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % aws ec2 describe-regions --query "Regions[9].RegionName" --output text
+ca-central-1
+ginanzanzakiese@Ginas-MacBook-Air nzanzag@gmail.com % cd ..
+ginanzanzakiese@Ginas-MacBook-Air academy1-assignment14 % git add nzanzag@gmail.com
+ginanzanzakiese@Ginas-MacBook-Air academy1-assignment14 % git commit -m 'nzanzag@gmail.com assignment14 completed'
+[main ca8de71] nzanzag@gmail.com assignment14 completed
+ 2 files changed, 25 insertions(+)
+ create mode 100644 nzanzag@gmail.com/aws
+ create mode 100644 nzanzag@gmail.com/result.txt
+ginanzanzakiese@Ginas-MacBook-Air academy1-assignment14 % git fetch
+ginanzanzakiese@Ginas-MacBook-Air academy1-assignment14 % git push
+Username for 'https://github.com': nzanzag@gmail.com
+Password for 'https://nzanzag@gmail.com@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/thongacademy/academy1-assignment14.git/'
+ginanzanzakiese@Ginas-MacBook-Air academy1-assignment14 % git push
+Username for 'https://github.com': Tangawisi
+Password for 'https://Tangawisi@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/thongacademy/academy1-assignment14.git/'
+ginanzanzakiese@Ginas-MacBook-Air academy1-assignment14 % git push
+Username for 'https://github.com': Tangawisi
+Password for 'https://Tangawisi@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/thongacademy/academy1-assignment14.git/'
+ginanzanzakiese@Ginas-MacBook-Air academy1-assignment14 % 
