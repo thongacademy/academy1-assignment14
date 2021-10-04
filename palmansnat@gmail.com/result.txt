@@ -1,0 +1,24 @@
+aws-cli/2.2.42 Python/3.8.8 Windows/10 exe/AMD64 prompt/off
+to get account number
+to get information about IAM user
+{
+    "User": {
+        "Path": "/",
+        "UserName": "Nathalie_admin1",
+        "UserId": "AIDA2XCVXEZNLJ3A7GQFR",
+        "Arn": "arn:aws:iam::736766666330:user/Nathalie_admin1",
+        "CreateDate": "2021-07-23T01:44:48+00:00",
+        "PasswordLastUsed": "2021-08-26T22:40:29+00:00",
+        "Tags": [
+            {
+                "Key": "CLASS",
+                "Value": "AWS"
+            }
+        ]
+    }
+}
+To Describes the specified instances or all instances
+{
+    "Reservations": []
+}
+to get the region name of the 10th of the region list
