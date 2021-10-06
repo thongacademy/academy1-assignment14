@@ -1,0 +1,5 @@
+aws-cli/2.2.43 Python/3.8.8 Darwin/20.6.0 exe/x86_64 prompt/off
+*** To get account number ***
+968801951500
+*** To get the region name of the 10 th of the region list  ***
+ca-central-1
