@@ -1,0 +1,14 @@
+aws-cli/2.2.43 Python/3.8.8 Windows/10 exe/AMD64 prompt/off
+****To get account number****
+****To get information about an IAM user****
+{
+    "User": {
+        "UserName": "prisca-monobo1",
+        "UserId": "671676762632",
+        "Arn": "arn:aws:iam::671676762632:root",
+        "CreateDate": "2020-02-29T16:34:40+00:00",
+        "PasswordLastUsed": "2021-10-16T15:10:33+00:00"
+    }
+}
+****To describes the specific instances or all instances****
+***To get region name of the 10th of the region list****
